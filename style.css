@@ -12,7 +12,7 @@ body {
 }
 
 .header {
-    
+    min-height: 100vh;
 }
 
 .header .video-container {
@@ -137,4 +137,9 @@ body {
 }
 .header .data-container .achievements .achievement p {
     font-size: 12px;
+}
+
+.services {
+    display: block;
+    height: 100vh;
 }
