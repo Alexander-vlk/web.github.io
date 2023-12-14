@@ -34,7 +34,7 @@ body {
 .header .video-container .blackout {
     position: absolute;
     width: 100%;
-    height: 100dvh;
+    height: 100vh;
     background-color: #000;
     opacity: .5;
     z-index: -1;
@@ -46,7 +46,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 3dvh 2dvw;
+    padding: 3vh 2dvw;
 }
 
 .header .menu-container  .menu .logo {
@@ -61,7 +61,7 @@ body {
     font-size: 30px;
 }
 .header .data-container {
-    margin-top: 5dvh;
+    margin-top: 5vh;
 }
 
 .header .data-container .text h1 {
@@ -85,7 +85,7 @@ body {
     display: flex;
     justify-content: center;
     transition: .3s;
-    padding: 3dvh 3dvw;
+    padding: 3vh 3dvw;
 }
 .header .data-container .text .button-container:hover {
     background: #F14D34;
@@ -102,15 +102,15 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 5dvh 6dvw;
+    margin: 5vh 6dvw;
 }
 .header .data-container .achievements .achievement {
     width: 100%;
-    max-width: 160px;
+    max-width: 150px;
     color: #fff;
     border-left: 4px solid #F14D34;
     padding-left: 2dvw;
-    margin: 3dvh;
+    margin: 3vh 1vw;
 }
 
 .header .data-container .achievements .achievement:first-child {
