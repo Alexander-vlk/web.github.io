@@ -7,16 +7,8 @@
     font-family: Montserrat;
 }
 
-body {
-
-}
-
 .header {
-    min-height: 100vh;
-}
-
-.header .video-container {
-
+    min-height: 100lvh;
 }
 
 .header .video-container video {
@@ -37,7 +29,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: #000;
-    opacity: .5;
+    opacity: .7;
     z-index: -1;
 }
 
@@ -61,14 +53,16 @@ body {
     align-items: center;
     font-size: 16px;
 }
-
+.header .menu-container  .menu ul {
+    display: none;
+}
 .header .menu-container  .menu #bars  {
     color: #fff;
     font-size: 20px;
     margin-left: 10dvw;
 }
 .header .data-container {
-    margin-top: 5vh;
+    margin-top: 5lvh;
 }
 
 .header .data-container .text h1 {
@@ -79,7 +73,7 @@ body {
     color: #fff;
     text-align: center;
     font-size: 18px;
-    margin-top: 2dvh;
+    margin-top: 2lvh;
     opacity: .8;
 }
 
@@ -87,12 +81,12 @@ body {
     width: 100%;
     max-width: 200px;
     margin: 0 auto;
-    margin-top: 4vh;
+    margin-top: 4lvh;
     border: 2px solid #F14D34;
     display: flex;
     justify-content: center;
     transition: .3s;
-    padding: 3vh 3dvw;
+    padding: 3lvh 3dvw;
 }
 .header .data-container .text .button-container:hover {
     background: #F14D34;
@@ -105,11 +99,9 @@ body {
     color: #fff;
 }
 .header .data-container .achievements {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 3vh 6dvw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3lvh 6dvw;
 }
 .header .data-container .achievements .achievement {
     width: 100%;
@@ -117,7 +109,7 @@ body {
     color: #fff;
     border-left: 4px solid #F14D34;
     padding-left: 2dvw;
-    margin: 3vh 1vw;
+    margin: 3lvh 1vw;
 }
 
 .header .data-container .achievements .achievement:first-child {
@@ -141,5 +133,88 @@ body {
 
 .services {
     display: block;
-    height: 100vh;
+    height: 100lvh;
 }
+
+ @media (min-width: 960px) {
+    .header .menu-container .menu {
+        background-color: inherit;
+        padding: 0;
+        padding-top: 5lvh;
+        width: 100%;
+        max-width: 1260px;
+        margin: 0 auto;
+    }
+    .header .menu-container .menu img {
+        height: 40px;
+    }
+    .header .menu-container .menu ul {
+        width: 100%;
+        max-width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+    }
+    .header .menu-container .menu ul li {
+        color: #fff;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .header .menu-container .menu ul li::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        margin-top: 3px;
+        transition: .5s;
+    }
+    .header .menu-container .menu ul li:hover::after {
+        background-color: #F14D34;
+    }
+    .header .menu-container .menu .contact {
+        color: #fff;
+        font-weight: 600;
+    }
+    .header .menu-container .menu .lang {
+        color: #fff;
+        display: flex;
+    }
+    .header .menu-container .menu .lang p {
+        text-transform: uppercase;
+        margin-right: 5px;
+    }
+    .header .menu-container .menu #bars {
+        display: none;
+    }
+
+    .header .data-container {
+        width: 100%;
+        max-width: 1260px;
+        margin: 20lvh auto;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-content: center;
+    }
+    .text {
+        max-width: 300px;
+    }
+    .header .data-container .text h1 {
+        font-size: 48px;
+        text-align: left;
+    }
+    .header .data-container .text p {
+        text-align: left;
+    }
+    .header .data-container .text .button-container {
+        margin: 5lvh 0;
+    }
+    .achievements {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 0;
+    }
+    .header .data-container .achievements .achievement {
+        max-width: 200px;
+    }
+ }
