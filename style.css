@@ -53,7 +53,9 @@
     align-items: center;
     font-size: 16px;
 }
-.header .menu-container  .menu ul {
+.header .menu-container  .menu ul,
+.header .menu-container  .menu .contact,
+.header .menu-container  .menu .lang {
     display: none;
 }
 .header .menu-container  .menu #bars  {
@@ -136,7 +138,7 @@
     height: 100lvh;
 }
 
- @media (min-width: 960px) {
+ @media (min-width: 1260px) {
     .header .menu-container .menu {
         background-color: inherit;
         padding: 0;
