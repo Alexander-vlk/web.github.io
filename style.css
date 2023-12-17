@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -40,7 +39,7 @@
     justify-content: space-between;
     width: 100%;
     height: 30px;
-    padding: 3vh 2dvw;
+    padding: 3lvh 2dvw;
 }
 .header .menu-container .menu img {
     width: 100%;
@@ -136,6 +135,99 @@
 .services {
     display: block;
     height: 100lvh;
+}
+
+.plans-container {
+    background-image: url("img/D-background-opacity.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    top: 0;
+    right: 0;
+}
+.plans-container .plans {
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    min-height: 100lvh;
+}
+.plans-container .plans .tariffs {
+    text-align: center;
+    padding-top: 10lvh;
+}
+.plans-container .plans .tariffs h2 {
+    font-weight: 700;
+    font-size: 42px;
+}
+.plans-container .plans .card {
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem auto;
+    background: #fff;
+    padding: .5rem 1rem .5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px -4px #A1A1A1;
+}
+.plans-container .plans .card .card-name-price {
+    padding: 1rem 0 1rem 0;
+    border-bottom: #F2F4F6 solid 3px;
+}
+.plans-container .plans .card .card-name-price h2 {
+    font-size: 22px;
+    color: #F14D34;
+}
+.plans-container .plans .card .card-name-price p {
+    font-weight: 700;
+    font-size: 26px;
+}
+.plans-container .plans .card .card-name-price p i {
+    font-size: 22px;
+}
+.plans-container .plans .card .card-body-items {
+    margin: 1rem 0;
+}
+.plans-container .plans .card .card-body-items .card-body-item {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    margin: 1rem 0;
+}
+.plans-container .plans .card .card-body-items .card-body-item i {
+    color: #F14D34;
+}
+.plans-container .plans .card .card-button {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+.plans-container .plans .card .card-button button {
+    width: 100%;
+    color: #F14D34;
+    border: 2px solid #F14D34;
+    background: none;
+    padding: 1rem;
+    transition: color .7s;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.plans-container .plans .card .card-button button:hover {
+    background: #F14D34;
+    color: #fff;
+}
+.plans-container .plans .individual-plan {
+    text-align: center;
+    padding: 1rem 0;
+}
+.plans-container .plans .individual-plan p {
+    color: #404040;
+    opacity: .6;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.plans-container .plans .individual-plan a {
+    text-transform: uppercase;
+    color: #050C33;
+    font-weight: 500;
 }
 
  @media (min-width: 1260px) {
