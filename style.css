@@ -372,20 +372,11 @@
      position:absolute;
  }
 
- #latest-cases {
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-}
-
-#latest-cases-cards {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    gap: .5%;
+#show-more-cases {
+    padding: 20px 70px;
+    background-color: #FFF;
+    border-radius: 3px;
+    border: 1px solid #999;
 }
 
  @media (min-width: 1260px) {
