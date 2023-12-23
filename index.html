@@ -23,7 +23,18 @@
                 <li>Поддержка сайтов</li>
                 <li>тарифы</li>
                 <li>наши работы</li>
-                <li>отзывы</li>
+                <li id="dropout-menu-li">
+                    <p>администрирование<i class="fa-solid fa-chevron-down"></i></p>
+                    <div id="dropout-menu-outter">
+                        <ul id="dropout-menu">
+                            <li>миграция</li>
+                            <li>бэкапы</li>
+                            <li>аудит безопасности</li>
+                            <li>оптимизация скорости</li>
+                            <li>переезд на https</li>
+                        </ul>
+                    </div>
+                </li>
                 <li>контакты</li>
             </ul>
             <div class="contact">
@@ -34,7 +45,16 @@
                 <span><i class="fa-solid fa-chevron-down"></i></span>
             </div>
             <div class="navpanel">
-                <span id="bars"><i class="fa-solid fa-bars"></i></span>
+                <span id="bars"><i class="fa-solid fa-bars" id="mobile-menu-icon"></i></span>
+                <div id="mobile-menu-outter">
+                    <ul>
+                        <li><a href="#support">поддержка сайтов</a></li>
+                        <li><a href="#plans">тарифы</a></li>
+                        <li><a href="#cases">наши работы</a></li>
+                        <li><a href="#services">администрирование</a></li>
+                        <li><a href="#webform">контакты</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -103,9 +123,9 @@
         </div>
     </div>
 </div>
-<div class="services">
+<div class="services" id="services">
 </div>
-<div class="support">
+<div class="support" id="support">
     <div id="company-support">
         <div id="support-header-outter">
             <h1>Поддержка от Drupal-coder</h1>
@@ -195,7 +215,7 @@
         </div>
     </div>
 </div>
-<div class="plans-container">
+<div class="plans-container" id="plans">
     <div class="plans">
         <div class="tariffs">
             <h2>Тарифы</h2>
@@ -305,7 +325,7 @@
         </div>
     </div>
 </div>
-<div class="cases">
+<div class="cases" id="cases">
     <div id="latest-cases-header-outter">
         <h1>Последние кейсы</h1>
     </div>
@@ -429,7 +449,7 @@
 <div class="partners">
 
 </div>
-<div class="webform">
+<div class="webform" id="webform">
 
 </div>
 <script src="index.js"></script>
