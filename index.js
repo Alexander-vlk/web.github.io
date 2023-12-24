@@ -1,16 +1,13 @@
-document.addEventListener("DOMContentLoaded", () => {
-    var mobileMenuIconEl = document.getElementById("mobile-menu-icon");
-    var mobileMenuEl = document.getElementById("mobile-menu-outter");
-
-    mobileMenuIconEl.addEventListener("click", () => {
-        mobileMenuEl.style.display = "block";
+document.addEventListener('DOMContentLoaded', function () {
+    var splide = new Splide('.splide', {
+        perPage: 1,
+        width: '100%',
+        perMove: 1,
+        gap: '2rem',
+        autoplay: false,
+        interval: 5000,
+        type  : 'loop',
     });
-
-    document.addEventListener("click", (event) => {
-        if (event.target != mobileMenuIconEl) {
-            mobileMenuEl.style.display = "none";
-        }
-    });
+    
+    splide.mount();
 });
-const activeCard = document.getElementsByClassName(".active");
-console.log(activeCard)

@@ -507,6 +507,59 @@ html {
     cursor: pointer;
 }
 
+.team {
+    min-height: 100lvh;
+}
+
+.reviews {
+
+}
+.reviews .reviews-img-container {
+    position: absolute;
+    z-index: -10;
+}
+.reviews .reviews-img-container img {
+    position: relative;
+    top: -100px;
+}
+.reviews h2 {
+    text-align: center;
+    color: #050C33;
+    font-size: 42px;
+}
+.reviews .bg-rectangle {
+    display: block;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px -5px #000;
+    z-index: 3;
+    background: #fff;
+    margin-top: 7lvh;
+    padding: 3rem 0;
+}
+.review-img-container {
+    margin-bottom: 2rem;
+}
+.review-text-container {
+    padding: 3rem 0;
+}
+.review-text-container, .review-img-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+#review-text {
+    font-size: 12px;
+}
+.splide__arrow {
+    display: none;
+}
+
+.partners {
+    min-height: 100lvh;
+}
+
  @media (min-width: 1260px) {
     .header .menu-container .menu {
         background-color: inherit;
@@ -801,5 +854,10 @@ html {
     .case.separate-thumbnail .case-content-inner {
         position: absolute;
     }
-
+    .splide__arrow {
+        display: block;
+    }
+    .review-text-container, .review-img-container {
+        max-width: 500px;
+    }
  }
