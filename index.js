@@ -1,5 +1,25 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var splide = new Splide('.splide', {
+    var splide_reviews = new Splide('.splide', {
+        perPage: 1,
+        width: '100%',
+        perMove: 1,
+        gap: '2rem',
+        autoplay: false,
+        interval: 5000,
+        type  : 'loop',
+    });
+
+    var splide_partners_1 = new Splide('#splide1', {
+        perPage: 1,
+        width: '100%',
+        perMove: 1,
+        gap: '2rem',
+        autoplay: false,
+        interval: 5000,
+        type  : 'loop',
+    });
+
+    var splide_partners_2 = new Splide('#splide2', {
         perPage: 1,
         width: '100%',
         perMove: 1,
@@ -9,5 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         type  : 'loop',
     });
     
-    splide.mount();
+    splide_reviews.mount();
+    splide_partners_1.mount();
+    splide_partners_2.mount();
 });
