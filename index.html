@@ -13,6 +13,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
     <link href="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 " rel="stylesheet">
+
 </head>
 <body>
 <div class="header">
@@ -557,31 +558,72 @@ http://lpcma.tsu.ru/ru/post/reference_material
         <h2>С нами работают</h2>
         <p>Десятки компаний доверяют нам самое ценное, что у них есть в интернете – свои сайты. Мы делаем всё, чтобы наше сотрудничество было долгим.</p>
     </div>
-    <div class="slider">
-        <section id="splide1">
+    <div id="company-clients-gallery-1">
+        <section class="splide" aria-label="Splide 1" id="clients-gallery-1">
             <div class="splide__track">
                 <ul class="splide__list">
-                    <li class="splide__slide">
-
-                    </li>
-                    <li class="splide__slide">
-
-                    </li>
-                    <li class="splide__slide">
-                        
-                    </li>
+                    <li class="splide__slide"><img src="img/Kubsu_logo (1).png.webp"  alt="Client1"></li>
+                    <li class="splide__slide"><img src="img/Kubsu_logo (1).png.webp"  alt="Client2"></li>
+                    <li class="splide__slide"><img src="img/Kubsu_logo (1).png.webp"  alt="Client3"></li>
+                    <li class="splide__slide"><img src="img/Kubsu_logo (1).png.webp"  alt="Client4"></li>
+                    <li class="splide__slide"><img src="img/Kubsu_logo (1).png.webp"  alt="Client1"></li>
+                    <li class="splide__slide"><img src="img/Kubsu_logo (1).png.webp"  alt="Client2"></li>
+                    <li class="splide__slide"><img src="img/Kubsu_logo (1).png.webp"  alt="Client3"></li>
+                    <li class="splide__slide"><img src="img/Kubsu_logo (1).png.webp"  alt="Client4"></li>
                 </ul>
             </div>
-        </section>
+          </section>
     </div>
-    <div class="slider">
-        <section id="splide2">
 
-        </section>
-    </div>
 </div>
 <div class="webform" id="webform">
+    <div class="webform-container">
+        <section class="form-text">
+        <h2>Оставить заявку на поддержку сайта</h2>
+        <p class="form-p-text">Срочно нужна поддержка сайта? Ваша команда не успевает справиться самостоятельно или предыдущий подрядчик не справился с работой? Тогда вам точно к нам! Просто оставьте заявку и наш менеджер с вами свяжется!</p>
+        <div class="form-text-contacts">
+            <span><i class="fa-solid fa-phone"></i><p>8 800 222-26-73</p></span>
+            <span><i class="fa-solid fa-envelope"></i><p>info@drupal-coder.ru</p></span>
+        </div>
+    </section>
+    <section class="formcarry-container">
+        <form action="https://formcarry.com/s/vCOiAcR8vp" method="POST" enctype="multipart/form-data">
+          
+          <div class="formcarry-block">
+            <input type="text" name="name" id="fc-generated-1-name" placeholder="ФИО" />
+          </div>
+            
+          <div class="formcarry-block">
+            <input type="email" name="email" id="fc-generated-1-email" placeholder="Электронная почта" />
+          </div>
 
+          <div class="formcarry-block">
+            <input type="text" name="phone" id="fc-generated-1-name" placeholder="Номер телефона" />
+          </div>
+
+          <div class="formcarry-block">
+            <input type="text" name="company" id="fc-generated-1-name" placeholder="Компания" />
+          </div>
+            
+          <div class="formcarry-block">
+            <textarea name="message" name="message" id="fc-generated-1-message" placeholder="Сообщение"></textarea>
+          </div>
+        
+          <div class="formcarry-block" id="agree-block">
+            <label for="fc-generated-1-message" id="agree-label">Соглашаюсь на обработку данных</label>
+            <input type="checkbox" required="true" name="terms" id="terms">
+          </div>
+            
+          <div class="formcarry-block">  
+            <button id="send" type="submit">Оставить заявку!</button>
+          </div>
+        </form>
+      </section>
+    </div>
+</div>
+<div class="footer">
+    <p>Проект ООО «Инитлаб», Краснодар, Россия.</p>
+    <p>Drupal является зарегистрированной торговой маркой Dries Buytaert.</p>
 </div>
 <script src="index.js"></script>
 </body>

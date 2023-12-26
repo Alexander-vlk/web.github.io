@@ -574,6 +574,97 @@ html {
     color:#050C33;
 }
 
+.splide, .splide__track{
+    overflow-y: hidden;
+}
+#company-clients-gallery-1 {
+    margin-top: 1rem;
+}
+#company-clients-gallery-2 {
+    overflow-y: hidden;
+    margin-top: 1rem;
+    width: 140%;
+}
+.splide__slide {
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}
+
+.splide__slide > img {
+    height: 100px;
+}
+
+.webform {
+    display: block;
+    background: #040613;
+    margin: 0 auto;
+}
+.webform-container {
+    margin: 0 auto;
+}
+.webform section {
+    width: 100%;
+    max-width: 480px;
+}
+.webform .form-text {
+    color: #fff;
+}
+.webform .form-text h2 {
+    font-size: 42px;
+}
+.webform .form-text .form-p-text {
+    font-size: 14px;
+    text-align: justify;
+}
+.webform .form-text .form-text-contacts {
+    margin-top: 4rem;
+}
+.webform .form-text span {
+    display: flex;
+}
+
+.webform .formcarry-containerformcarry-container form {
+    width: 100%;
+    max-width: 480px;
+}
+
+form input, textarea {
+    width: 100%;
+    font-size: 14px;
+    margin: 1dvh 0;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+    background-color: #040613;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+}
+#agreee-block {
+    align-items: center;
+}
+#agree-label {
+    color: #fff;
+}
+#terms {
+    width: 20px;
+}
+#send {
+    width: 100%;
+    background: #d13018;
+    color: #fff;
+    border: none;
+    outline: none;
+    height: 60px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.footer {
+    background: #040613;
+    color: #fff;
+}
+
  @media (min-width: 1260px) {
     .header .menu-container .menu {
         background-color: inherit;
@@ -871,5 +962,15 @@ html {
     }
     .review-text-container, .review-img-container {
         max-width: 500px;
+    }
+    .webform {
+        padding: 2rem 0;
+    }
+    .webform-container {
+        width: 100%;
+        max-width: 1260px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
     }
  }
