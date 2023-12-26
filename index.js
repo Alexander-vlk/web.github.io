@@ -32,22 +32,22 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     clientsSlider1.mount();
 
-    var clientsSlider2 = new Splide( '#clients-gallery-2', {
-        type: "loop",
-        width: "140%",
-        perMove: 1,
-        perPage: 16,
-        gap: "1em",
-        autoWidth: true,
-        arrows: false,
-        pagination: false,
-        drag: false,
-        autoplay: true,
-        interval: 5000,
-        speed: 1200,
-    });
-    clientsSlider2.mount();
-});
+//     var clientsSlider2 = new Splide( '#clients-gallery-2', {
+//         type: "loop",
+//         width: "140%",
+//         perMove: 1,
+//         perPage: 16,
+//         gap: "1em",
+//         autoWidth: true,
+//         arrows: false,
+//         pagination: false,
+//         drag: false,
+//         autoplay: true,
+//         interval: 5000,
+//         speed: 1200,
+//     });
+//     clientsSlider2.mount();
+// });
 
 $(function(){
     $(".formcarryForm").submit(function(e){
@@ -87,7 +87,7 @@ $(function(){
       });
     });
   });
-
+я
 
 
 
