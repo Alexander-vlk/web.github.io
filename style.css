@@ -181,6 +181,7 @@ html {
     padding: 10px;
     height: 100lvh;
     margin-top: 100px;
+    margin-bottom: 500px;
 }
 
 .servises-container{
@@ -227,9 +228,10 @@ html {
 
 .team {
     width:100%;
-    margin-top: 500px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 70px;
 }
 
 .team-head {
@@ -870,6 +872,52 @@ form input, textarea {
     }
     .header .data-container .text .button-container {
         margin: 5lvh 0;
+    }
+    .services {
+        padding: 10px;
+        height: 100lvh;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    .servises_body {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        max-width: 1250px;   
+    }
+
+     .servises_elements {
+        min-width: 300px;
+        height: 200px;
+        margin: auto;
+        color: #778899;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        
+     }
+    .servises_elements p {
+        width: 200px;
+    }
+    .team {
+        width:100%;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+    
+    .team-container {
+    width: 100%;
+    max-width: 700px;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 2em;
     }
     .achievements {
         grid-template-columns: 1fr 1fr 1fr;
