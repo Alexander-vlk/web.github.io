@@ -733,8 +733,6 @@ html {
         transform: scale(.9);
         box-shadow: 0 0 5px -2px #A1A1A1;
     }
-    /* bug: last card is not resizing main card while hover */
-    /* bug: button should change color */
 
     .plans-container .plans .card:last-child:hover ~ #main-card {
         transform: scale(.9);

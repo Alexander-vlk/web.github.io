@@ -30,6 +30,26 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     
     splide_reviews.mount();
-    splide_partners_1.mount();
-    splide_partners_2.mount();
+    // splide_partners_1.mount();
+    // splide_partners_2.mount();
+});
+
+const startCard = document.getElementById("start-card");
+const mainCard = document.getElementById("main-card");
+const vipCard = document.getElementById("card-vip");
+
+document.addEventListener("DOMContentLoaded", () => {
+    vipCard.addEventListener("mouseover", () => {
+        mainCard.style.transform = "scale(.9)";
+    });
+    vipCard.addEventListener("mouseout", () => {
+        mainCard.style.transform = "scale(1)";
+    });
+
+    startCard.addEventListener("mouseover", () => {
+        mainCard.style.transform = "scale(.9)";
+    });
+    startCard.addEventListener("mouseout", () => {
+        mainCard.style.transform = "scale(1)";
+    });
 });
