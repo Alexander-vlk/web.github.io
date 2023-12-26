@@ -178,8 +178,82 @@ html {
 }
 
 .services {
-    display: block;
+    padding: 10px;
     height: 100lvh;
+    margin-top: 100px;
+}
+
+.servises-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-content:center;
+}
+
+.services_head_container{
+    display: flex;
+    flex-direction:column;
+}
+.servises_head {
+    width:  100%;
+    max-width: 400px}
+
+.servises_subhead {
+    width: 350px;
+    color: #778899;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.servises_body {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 700px;   
+}
+
+.servises_elements {
+    max-width: 150px;
+    height: 200px;
+    margin: auto;
+    color: #778899;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.team {
+    width:100%;
+    margin-top: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.team-container {
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 2em;
+}
+
+.human {
+    max-width: 140px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .plans-container {
@@ -507,9 +581,7 @@ html {
     cursor: pointer;
 }
 
-.team {
-    min-height: 100lvh;
-}
+
 
 .reviews {
 
