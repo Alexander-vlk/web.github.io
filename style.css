@@ -617,7 +617,13 @@ html {
     text-align: justify;
 }
 .webform .form-text .form-text-contacts {
-    margin-top: 4rem;
+    margin-top: 6rem;
+}
+.webform .form-text .form-text-contacts span {
+    margin-top: 1rem;
+}
+.webform .form-text .form-text-contacts i {
+    margin-right: 1dvw;
 }
 .webform .form-text span {
     display: flex;
@@ -639,6 +645,7 @@ form input, textarea {
     color: #fff;
     font-weight: 700;
     outline: none;
+    resize: none;
 }
 #agreee-block {
     align-items: center;
@@ -652,17 +659,29 @@ form input, textarea {
 #send {
     width: 100%;
     background: #d13018;
+    border: 3px solid #d13018;
     color: #fff;
-    border: none;
     outline: none;
     height: 60px;
     letter-spacing: 2px;
     font-weight: 600;
+    transition: .3s;
+}
+#send:hover {
+    background: #040613;
 }
 
 .footer {
     background: #040613;
     color: #fff;
+    font-size: 12px;
+    padding: 2rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.footer p {
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
 }
 
  @media (min-width: 1260px) {
